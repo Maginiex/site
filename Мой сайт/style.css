@@ -1,0 +1,67 @@
+body{
+   background-color: Wheat;
+   color: SaddleBrown;
+   margin: 0 auto;
+}
+
+
+.header{
+   width: 100%;
+   display: inline-flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.header_elems{
+   margin-top: 30px;
+   margin-right: 50px;
+}
+
+.header h2{
+   text-align: center;
+
+
+}
+
+.header2 h2{
+  text-align: center;
+
+}
+
+
+.header_elems a{
+   text-decoration: none;
+   color: SaddleBrown;
+
+}
+
+.main{
+   text-align: left;
+   flex-direction: row;
+   margin-left:300px;
+   margin-right:300px;
+}
+.main h1{
+   text-align: center;
+}
+
+.main img{
+
+   position:relative;
+   left: 40%;
+   transform:tranclate(-50%,0)
+
+}
+
+.button button {
+   width: 150px;
+   height:50px;
+   position:relative;
+   left: 46%;
+   transform:tranclate(-50%,0);
+   background-color: Peru;
+   color: white;
+   border: none;
+
+
+}
