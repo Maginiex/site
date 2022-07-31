@@ -1,0 +1,52 @@
+body{
+    background-color:rgb(0, 0, 54);
+}
+ 
+.first{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+}
+
+
+.second{
+    background-color: rgb(13, 10, 189);
+    display: grid;
+    place-items: center;
+}
+
+.third{
+    background-color:rgb(0, 0, 54);
+    display: grid;
+    place-items: center;
+ 
+ }
+ 
+
+ button {
+    padding: 15px;
+    margin: 0px 3px 0px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background: black;
+    width: 300px;
+    height: 60px;
+  }
+  
+  .btn-scale-0,
+  .btn-scale-1,
+  .btn-scale-2,
+  .btn-scale-3 {
+    background-color: #FE0200;
+    color: white;
+    text-shadow: 1px 1px 3px #8e8e8e;
+  }
+  <button id="scale-0" class="btn-scale-0">&nbsp;0&nbsp;</button>
+  <button id="clearButton" class="btn-scale-1">&nbsp;1&nbsp;</button>
+ 
